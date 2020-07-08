@@ -1,0 +1,61 @@
+{
+  "name": "graphql-quickstart",
+  "version": "0.1.0",
+  "author": {
+      "name": "Dubravko Bogovic",
+      "email": "dubravko.bogovic@gmail.com"
+  },
+  "private": true,
+  "keywords": [
+    "graphQL",
+    "hasura",
+    "fast",
+    "simple"
+  ],
+  "dependencies": {
+    "apollo-cache-inmemory": "^1.6.3",
+    "apollo-client": "^2.6.4",
+    "apollo-link-context": "^1.0.18",
+    "apollo-link-http": "^1.5.15",
+    "apollo-link-ws": "^1.0.18",
+    "bulma": "0.7.5",
+    "butter-toast": "^3.3.3",
+    "fake-auth": "0.0.3",
+    "graphql": "^14.5.4",
+    "graphql-tag": "^2.10.1",
+    "lodash": "^4.17.15",
+    "node-sass": "4.12.0",
+    "query-string": "6.8.2",
+    "react": "16.9.0",
+    "react-apollo": "^3.0.1",
+    "react-dom": "16.9.0",
+    "react-light-accordion": "^0.1.4",
+    "react-router-dom": "5.0.1",
+    "react-scripts": "3.0.1",
+    "semantic-ui-react": "^0.88.0",
+    "subscriptions-transport-ws": "^0.9.16",
+    "unfetch": "^4.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "test:debug": "react-scripts --inspect-brk test --runInBand",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

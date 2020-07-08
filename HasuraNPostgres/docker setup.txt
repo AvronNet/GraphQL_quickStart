@@ -1,0 +1,15 @@
+Docker setup
+
+To start the docker images for hasura to work:
+docker-compose up -d
+To stop the doceker containers:
+docker-compose down
+
+
+To clear the data for the docker container defined in the docker-compose.yaml use:
+docker volume prune
+
+
+- we have to use this becouse the container defines volumes in ht docker-compose file that is used to save the container data for the next startup. 
+(if we removed these volumes nothing would persist after removing the container with docker rm container_name)
+- details here - https://github.com/Radu-Raicea/Dockerized-Flask/wiki/%5BDocker%5D-Remove-all-Docker-volumes-to-delete-the-database
